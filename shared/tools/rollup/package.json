@@ -1,0 +1,21 @@
+{
+  "name": "@caoua/rollup",
+  "version": "0.0.0",
+  "license": "Apache-2.0",
+  "main": "rollup.config.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "autoprefixer": "^10.4.13",
+    "camelcase": "^7.0.1",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "rollup": "2.55.1",
+    "rollup-plugin-cleanup": "^3.2.1",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.34.1"
+  }
+}

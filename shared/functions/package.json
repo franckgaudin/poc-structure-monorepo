@@ -1,0 +1,6 @@
+{
+  "name": "@caoua/functions",
+  "version": "0.0.0",
+  "main": "src/index.ts",
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "update-monorepo-structure",
+  "private": true,
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "shared/**/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.1.0"
+  },
+  "dependencies": {},
+  "scripts": {
+    "dev": "lerna run dev --parallel",
+    "clean": "lerna run clean && rm -rf node_modules",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  }
+}
