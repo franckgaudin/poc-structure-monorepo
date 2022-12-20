@@ -1,0 +1,45 @@
+{
+  "name": "@caoua/avatar",
+  "version": "0.0.0",
+  "main": "dist/Avatar.js",
+  "module": "dist/Avatar.js",
+  "types": "dist/Avatar.d.ts",
+  "styles": "dist/avatar.css",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "react": ">= 16.8"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rm -rf node_modules && rm -rf dist",
+    "build": "rollup -c rollup.config.js"
+  },
+  "dependencies": {
+    "@igloo-ui/tokens": "^2.0.0",
+    "classnames": "^2.3.2"
+  },
+  "devDependencies": {
+    "@caoua/tsconfig": "*",
+    "@rollup/plugin-commonjs": "^23.0.5",
+    "@rollup/plugin-json": "^5.0.2",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@types/react": "^18.0.26",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "rollup": "^3.7.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.34.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "IE >= 11"
+  ]
+}

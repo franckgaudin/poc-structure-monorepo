@@ -1,0 +1,8 @@
+{
+  "extends": "@caoua/tsconfig/react-library.json",
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules", "*.stories.tsx"],
+  "compilerOptions": {
+    "jsx": "react"
+  }
+}
